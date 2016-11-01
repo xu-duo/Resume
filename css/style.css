@@ -1,0 +1,231 @@
+*{
+    margin: 0; padding:0;
+}
+
+html, body{
+	font-family: '微软雅黑', sans-serif;
+	font-size: 100%;
+	background: #ffffff;
+}
+h2,h3,h4{
+    font-family: 华文楷体;
+}
+/*-- header_top --*/
+.wrap{
+    overflow: hidden;
+    background: rgba(255,255,255,0.2);
+}
+.main{
+    margin-left: 200px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.sidebar{
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    border-right: 2px solid #ddd;
+}
+.sidebar .resume{
+    font-family: 华文行楷;
+    font-size: 30px;
+    color: #CCCC99;
+    margin-left: 10px;
+}
+
+.sidebar h3{
+	font-weight:700;
+	margin:5px 40px;
+}
+
+.sidebar_top img{
+    margin-left: 20px;
+	border:1px solid #CCCC99;
+    padding: 10px;
+	width:40%;
+    border-radius: 50%;
+}
+
+.details{
+	margin:10px 0 0 20px;
+}
+
+.details p{
+	color:#101010;
+	font-size:14px;
+	margin:5px 0 20px 0;
+}
+.details p a{
+	color:#101010;
+	font-size:14px;
+    text-decoration: none;
+}
+.details p a:hover{
+    color: blue;
+}
+
+
+/*项目链接*/
+.code{
+    margin:30px 0;
+
+}
+.code p{
+    font-family: 华文行楷;
+    font-size: 30px;
+    color: #CCCC99;
+    margin-left: 10px;
+}
+
+.code .div{
+    color:#101010;
+    margin: 10px 0 20px 10px;
+}
+.code .div a{
+    color:#d43f3a;
+    font-size:14px;
+}
+.code .div a:hover{
+    color: blue;
+}
+
+
+    /*个人简介*/
+#profile {
+    clear: both;
+    padding-top: 20px;
+}
+#profile h3{
+    color: #6ecadc;
+    padding: 5px 0 10px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted #6ecadc;
+}
+
+.profile_details{
+    text-align: center;
+    padding:20px 0 0 20px;
+    font-family: 华文楷体;
+}
+
+.profile_details span{
+    border-right: 2px solid #6ecadc;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/*知识技能*/
+#skills h3{
+    color: #e9a820;
+    padding: 30px 0 10px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted #e9a820;
+}
+
+.skill_list{
+    padding:20px 0 0 10px;
+}
+
+.skill_list ul{
+    margin-left: 20px;
+}
+.skill_list ul li{
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    line-height:40px;
+	color:#333;
+    text-align: left;
+    padding-right: 30px;
+}
+.skill_list ul li p{
+    height: 30px;
+    line-height: 30px;
+    font-family: 华文楷体;
+}
+
+.skill_list ul li span{
+    display:block;
+    width: 450px;
+    height: 6px;
+    border-radius: 6px;
+    background: #8a6d3b;
+}
+
+
+/*项目经验*/
+#program {
+    clear: both;
+    margin: 20px 0;
+}
+#program h3{
+    color: #d43f3a;
+    padding: 5px 0 10px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted #d43f3a;
+}
+
+.program_details{
+    padding:20px 0 0 20px;
+    font-family: 华文楷体;
+}
+.list{
+    width: 950px;
+    background-color: #2e6da4;
+}
+
+.list p{
+    width: 800px;
+    font-size: 16px;
+    margin: 5px 20px;
+    float: left;
+}
+.list div{
+    float: right;
+    right: 50px;
+}
+.list div a{
+    color: #d43f3a;
+}
+
+/*自我介绍*/
+#introduce {
+    clear: both;
+    margin: 20px 0;
+}
+#introduce h3{
+    color: #398439;
+    padding: 25px 0 10px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted #398439;
+}
+
+.introduce_details{
+    padding:20px 0 0 20px;
+    font-family: 华文楷体;
+}
+
+.introduce_details p{
+    font-size: 16px;
+    margin: 5px 20px;
+    text-align: left;
+}
+
