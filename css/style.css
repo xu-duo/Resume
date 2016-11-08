@@ -18,7 +18,8 @@ html,body{
 }
 .sidebar .resume{
     font-family: 华文行楷;
-    font-size: 26px;
+    font-style: oblique;
+    font-size: 22px;
     color: #CCCC99;
     margin-top: 40px;
 }
@@ -155,6 +156,9 @@ html,body{
     span{
         font-size: 8px;
     }
+    .list a{
+        font-size: 8px;
+    }
 
 }
 /* 中等屏幕(桌面显示器,大于等于992px)*/
@@ -167,6 +171,9 @@ html,body{
         font-size: 12px;
     }
     span{
+        font-size: 12px;
+    }
+    .list a{
         font-size: 12px;
     }
     .container-fluid{
@@ -186,6 +193,9 @@ html,body{
         font-size: 14px;
     }
     span{
+        font-size: 14px;
+    }
+    .list a{
         font-size: 14px;
     }
     .container-fluid{
