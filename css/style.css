@@ -179,8 +179,8 @@ html,body{
     .container-fluid{
         width: 900px;
         margin: 30px auto;
-        box-shadow: 0 2px 10px #666,0 0 2px #666,0 0 2px #666;
-        border: 1px solid #CCCC99;
+        box-shadow: 0 2px 20px #666,0 0 2px #666,0 0 2px #666;
+        border: 1px solid #ddd;
     }
 }
 
@@ -201,7 +201,7 @@ html,body{
     .container-fluid{
         width: 900px;
         margin: 30px auto;
-        box-shadow: 0 2px 10px #666,0 0 2px #666,0 0 2px #666;
-        border: 1px solid #CCCC99;
+        box-shadow: 0 2px 20px #666,0 0 2px #666,0 0 2px #666;
+        border: 1px solid #ddd;
     }
 }
