@@ -46,6 +46,10 @@ html,body{
 }
 
 /* Placeholder dashboard ideas*/
+.pull-left{
+    margin-top: 14px;
+}
+
 .placeholders {
     text-align: left;
     padding-left: 20px;
