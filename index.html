@@ -1,219 +1,126 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Resume</title>
-    <link href="css/style.css" rel='stylesheet' type='text/css' >
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row row-offcanvas row-offcanvas-left">
-        <div class="col-xs-6 col-sm-3 col-md-3 sidebar-offcanvas" id="sidebar" role="navigation">
-            <div class="list-group sidebar">
-                <p class="resume first">Personal_Resume</p>
-                <div class="sidebar_top">
-                    <h3>许瑞瑞</h3>
-                    <img src="images/avatar1.jpg" alt=""/>
-                </div>
-                <div class="nav nav-sidebar">
-                    <p>求职意向：</p>
-                    <p>前端工程师</p>
-                    <p>电话：</p>
-                    <p>13173663686</p>
-                    <p>邮箱：</p>
-                    <p><a href="mailto:xuruirui2011@163.com">xuruirui2011@163.com</a></p>
-                </div>
+<div class="wrap">
+    <div class="header">
+        <div class="header_top">
+            <img src="images/avatar1.jpg" alt=""/>
+        </div>
+        <div class="details">
+            <div class="blog">
+                <p class="blog_p0">许瑞瑞的个人简历</p>
+                <p class="blog_p">个人博客：<a href="https://xu-duo.github.io/">https://xu-duo.github.io</a></p>
+            </div>
+            <div>
+                <span>电话：13173663686</span>
+                <span>邮箱：<a href="mailto:xuruirui2011@163.com">xuruirui2011@163.com</a></span>
+                <span>GitHub地址：
+                    <a href="https://github.com/xu-duo/">github.com/xu-duo</a>
+                </span>
+                <span>在线简历地址：
+                    <a href="https://xu-duo.github.io/Resume/">Resume </a>| <a href="https://github.com/xu-duo/Resume">源代码</a>
+                </span>
+            </div>
+        </div>
+    </div>
 
-                <p class="resume">Project Link</p>
-                <div class="nav nav-sidebar">
-                    <p>Github地址：</p>
-                    <p>
-                        <a href="https://github.com/xu-duo/">
-                            GitHub.com/xu-duo
-                        </a>
-                    </p>
-                    <p>在线简历地址：</p>
-                    <p>
-                        <a href="https://xu-duo.github.io/Resume/">
-                            Resume
-                        </a>|
-                        <a href="https://github.com/xu-duo/Resume">源代码</a>
-                    </p>
+    <div class="main">
+
+        <div class="content">
+            <div id="profile">
+                <h4 class="clr1">基本信息</h4>
+                <div class="profile_details">
+                    <p>姓名：<span>许瑞瑞</span></p>
+                    <p>性别：<span>女</span></p>
+                    <p>学历：<span>本科</span></p>
+                    <p>出生年月：<span>1992年12月</span></p>
+                    <p>毕业院校：<span>河南科技大学</span></p>
+
+                </div>
+            </div>
+            <div id="introduce">
+                <h4 class="clr1">自我介绍</h4>
+                <div class="introduce_details">
+                    <p>1、个性稳重，做事踏实认真；具有较强的自学能力，能够独立分析解决问题。</p>
+                    <p>2、喜欢互联网方面工作，热衷网络技术；希望在杭州找到一个前端开发工程师的岗位。</p>
                 </div>
             </div>
         </div>
 
+        <div id="program">
+            <h3 class="clr1">项目练习</h3>
+            <div class="program_details">
+                <div class="list">
+                    <p>1、<span>仿小米官网</span>：采用 HTML、CSS 完成基本布局，运用 CSS3 的 transform、transition 属性完成动画效果；使用 jQuery 框架实现下拉菜单、侧边栏显示隐藏功能，轮播图，商品评价遮盖层的显示隐藏等功能。</p>
+                    <div>
+                        <a href="https://xu-duo.github.io/imitation_mi/">Demo</a> |
+                        <a href="https://github.com/xu-duo/imitation_mi">源代码</a>
+                    </div>
+                </div>
+                <div class="list">
+                    <p>2、<span>Audio音乐播放器</span>：采用 HTML5 的 Audio 特性，引用本地资源，制作简易的音乐播放器；JavaScript 原生代码实现歌曲的播放、暂停、循环、切换，音量调节等功能。</p>
+                    <div>
+                        <a href="https://xu-duo.github.io/Audio_player/">Demo</a> |
+                        <a href="https://github.com/xu-duo/Audio_player">源代码</a>
+                    </div>
+                </div>
+                <div class="list">
+                    <p>3、<span>时钟效果</span>：HTML 完成时钟刻度及时、分、秒针的布局，CSS 完成表盘外形及走针的样式，JavaScript 原生代码实现走针的运动。</p>
+                    <div>
+                        <a href="https://xu-duo.github.io/clock/">Demo</a> |
+                        <a href="https://github.com/xu-duo/clock">源代码</a>
+                    </div>
+                </div>
 
-        <div class="col-xs-12 col-sm-9 col-md-9" id="main">
-            <p class="pull-left visible-xs">
-                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">
-                    <span class="icon-bar">一</span>
-                </button>
-            </p>
-            <div class="profile">
-                <h4 class="page-header clr1">基本信息</h4>
-                <div class="row placeholders">
-                    <div class="col-xs-6 col-sm-4 placeholder">
-                        <span class="text-muted">姓名：许瑞瑞</span>
+                <div class="list">
+                    <p>4、<span>全屏滚动</span>：使用 HTML、CSS 完成基本布局，使用 FullPage.js 插件实现全屏滚动，使用 CSS3 的 transform、transition 属性完成基本动画效果。</p>
+                    <div>
+                        <a href="https://xu-duo.github.io/FullPage/">Demo</a> |
+                        <a href="https://github.com/xu-duo/FullPage">源代码</a>
                     </div>
-                    <div class="col-xs-6 col-sm-4 placeholder">
-                        <span class="text-muted">民族：汉</span>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 placeholder">
-                        <span class="text-muted">出生年月：1992年12月</span>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 placeholder">
-                        <span class="text-muted">毕业院校：河南科技大学</span>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 placeholder">
-                        <span class="text-muted">学历：本科</span>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 placeholder">
-                        <span class="text-muted">所在地：杭州</span>
+                </div>
+                <div class="list">
+                    <p>5、<span>其他项目</span>：瀑布流、轮播图、弹出层及页面切换、模拟队列及排序、Bootstrap 响应式布局等常用效果项目。</p>
+                    <div>
+                        <a href="https://xu-duo.github.io/study/">Demo</a> |
+                        <a href="https://github.com/xu-duo/study">源代码</a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="skills">
+            <h3 class="clr2">技能清单</h3>
+            <div class="skill_list">
+                <ul>
+                    <li>
+                        <p>1、熟练使用 HTML、CSS，能够编写语义化的 HTML，完成复杂的页面布局；熟悉 JavaScript，能够完成基本的交互功能。</p>
+                    </li>
+                    <li>
+                        <p>2、了解 HTML5 和 CSS3 新增知识；并使用 Audio 实现了简单的音乐播放器，运用 CSS3 完成基本的动画。</p>
+                    </li>
 
+                    <li>
+                        <p>3、熟悉 jQuery 框架，能够使用操作文档对象、动画效果及事件处理；熟悉 BootStrap 框架，能够实现基本的响应式布局。</p>
+                    </li>
+                    <li>
+                        <p>4、熟悉 Git 版本管理系统，熟悉使用 Git。</p>
+                    </li>
+                    <li>
+                        <p>5、熟悉使用 PhotoShop，能够完成基本的切图任务；英语水平 CET-6，能够阅读相关的外文文档。</p>
+                    </li>
+                    <li>
+                        <p>6、其他：了解 HTTP，HTTPS 协议；了解 Vue，Node 的基本知识，正在努力学习中。</p>
+                    </li>
+                </ul>
 
-            <div class="skill">
-                <h4 class="page-header clr2">技能清单</h4>
-                <div class="skill_list">
-                    <ul>
-                        <li class="col-xs-12 col-sm-6">
-                            <p>熟练使用 HTML，CSS， 熟悉 JavaScript</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                                    <span class="sr-only">65% Complete</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p>了解 HTML5 和 CSS3 新增知识</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                    <span class="sr-only">50% Complete</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p>熟悉 jQuery 框架，能够使用操作文档对象、动画效果及事件处理</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
-                                    <span class="sr-only">55% Complete</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p>熟悉 BootStrap 框架，能够实现基本的响应式布局</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
-                                    <span class="sr-only">55% Complete</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p>了解 Vue，Node</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                    <span class="sr-only">40% Complete</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p>了解 HTTP，HTTPS 协议</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                    <span class="sr-only">50% Complete</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p>熟悉 Git 版本管理系统，熟悉使用 Git</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                                    <span class="sr-only">65% Complete</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <div class="program col-sm-12 col-md-12">
-                <h4 class="page-header clr3">项目练习</h4>
-                <div class="program_details">
-                    <div class="list">
-                        <p>1、个人博客：使用 Hexo 博客框架，通过对原主题的配置、代码的修改，搭建自己的博客。</p>
-                        <div>
-                            <a href="https://xu-duo.github.io/">Demo</a>
-                            <a href="https://github.com/xu-duo/xu-duo.github.io">源代码</a>
-                        </div>
-                    </div>
-                    <div class="list">
-                        <p>2、仿小米官网：采用 HTML 和 CSS 完成基本布局，jQuery 完成交互效果。</p>
-                        <div>
-                            <a href="https://xu-duo.github.io/imitation_mi/">Demo</a>
-                            <a href="https://github.com/xu-duo/imitation_mi">源代码</a>
-                        </div>
-                    </div>
-                    <div class="list">
-                        <p>3、时钟效果：使用原生 JavaScript 完成时钟效果。</p>
-                        <div>
-                            <a href="https://xu-duo.github.io/clock/">Demo</a>
-                            <a href="https://github.com/xu-duo/clock">源代码</a>
-                        </div>
-                    </div>
-                    <div class="list">
-                        <p>4、Audio音乐播放器：采用 HTML5 的 audio 特性，制作简易的音乐播放器。</p>
-                        <div>
-                            <a href="https://xu-duo.github.io/Audio_player/">Demo</a>
-                            <a href="https://github.com/xu-duo/Audio_player">源代码</a>
-                        </div>
-                    </div>
-                    <div class="list">
-                        <p>5、全屏滚动：使用 HTML、CSS 完成基本布局，使用 FullPage.js 插件实现全屏滚动，配合使用 CSS3 完成基本动画效果。</p>
-                        <div>
-                            <a href="https://xu-duo.github.io/FullPage/">Demo</a>
-                            <a href="https://github.com/xu-duo/FullPage">源代码</a>
-                        </div>
-                    </div>
-                    <div class="list">
-                        <p>6、其他项目：瀑布流、轮播图、弹出层及页面切换、模拟队列及排序、Bootstrap 响应式布局等常用效果项目。</p>
-                        <div>
-                            <a href="https://xu-duo.github.io/study/">Demo</a>
-                            <a href="https://github.com/xu-duo/study">源代码</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="introduce col-sm-12 col-md-12">
-                <h4 class="page-header clr4">自我评价</h4>
-                <div class="introduce_details">
-                    <p>1、我是一个认真执着、个性稳重的人，做事踏实认真，能吃苦耐劳，有独立分析解决问题的能力。</p>
-                    <p>2、具有良好的学习、沟通和团队协作能力；善于思考，发掘自己在团队中价值。相信一直坚持某件事，总会有所成就。</p>
-                    <p>3、喜欢互联网方面工作，热衷网络技术；希望找到一个可以发挥我的特长并且让我成长的地方。</p>
-                    <p>4、能够熟练使用 Photoshop，完成基本的切图。</p>
-                    <p>5、英语水平 CET-6 ，能够阅读相关的外文文献。</p>
-                </div>
             </div>
         </div>
     </div>
 </div>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('[data-toggle="offcanvas"]').click(function () {
-            $('.row-offcanvas').toggleClass('active')
-        });
-    });
-</script>
-
 </body>
 </html>

@@ -1,211 +1,196 @@
 *{
-    padding: 0;
-    margin: 0;
-}
-html,body{
-    overflow-x: hidden;
-    font-family: 微软雅黑 , Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
-}
-.nav-sidebar > .active > a,
-.nav-sidebar > .active > a:hover,
-.nav-sidebar > .active > a:focus {
-    color: #fff;
-    background-color: #428bca;
-}
-.sidebar{
-    margin-left: 10px;
-    overflow: hidden;
-}
-.sidebar .resume{
-    font-family: 华文行楷;
-    font-style: oblique;
-    font-size: 22px;
-    color: #CCCC99;
-    margin-top: 40px;
-}
-.sidebar h3{
-    font-weight:700;
-    margin-left: 20px;
-}
-.sidebar_top img{
-    border:1px solid #CCCC99;
-    width:60%;
-    border-radius: 50%;
-    margin-left: 10px;
-}
-.nav{
-    margin-top: 20px;
+    margin: 0; padding:0;
 }
 
-.page-header {
-    text-align: center;
+html, body{
+    overflow-x: hidden;
+    font-family: Microsoft Yahei, Microsoft Sans Serif;
+    background-color:  #E6E6F0;
 }
-.clr1{
-    margin-top: 30px;
+a{
+    text-decoration: none;
+}
+.wrap{
+    width: 960px;
+    margin: 20px auto 40px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #ccc;
+}
+
+/*header*/
+.header{
+    height: 180px;
+    background-color: #000;
+}
+.header_top{
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+    padding-top: 30px;
+    vertical-align: bottom;
+}
+.header_top img{
+    max-width: 120px;
+    border-radius: 50%;
+    border:4px solid #666;
+    box-shadow:
+            0 0 15px #333,
+            0 0 25px #996600,
+            0 1px 3px 6px #fff;
+}
+
+.details{
+    display: inline-block;
+    width: 560px;
+    padding: 20px 0 0 20px;
+    background: hsla(0,0%,100%,.3);
+    border-radius: 4px;
+}
+.details .blog_p0{
+    font-family: 华文行楷;
+    font-size: 26px;
+    color: #CCCC99;
+}
+.details .blog{
+    margin-bottom: 16px;
+}
+.details .blog_p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 2px;
+
+}
+.details span{
+    display: inline-block;
+    width: 260px;
+    height: 26px;
+    color: #fff;
+    font-size:14px;
+}
+.details a{
     color: #6ecadc;
 }
-
-/* Placeholder dashboard ideas*/
-.pull-left{
-    margin-top: 14px;
-}
-
-.placeholders {
-    text-align: left;
-    padding-left: 20px;
-}
-.placeholder {
-    margin-bottom: 10px;
-}
-.placeholder span{
-    color: black;
-}
-
-/*skill*/
-.clr2{
-    color: #e9a820;
-}
-.skill_list ul li{
-    list-style-type: none;
-}
-
-.skill_list .progress{
-    height: 6px;
-}
-
-
-/*program*/
-.program{
-    margin-top: 20px;
-}
-.clr3{
+.details a:hover{
     color: #d43f3a;
+}
+
+
+
+/*main*/
+.main{
+    padding: 0 40px;
+}
+
+/*profile*/
+.content{
+    margin: 20px 0;
+}
+#profile {
+    width: 300px;
+    float: left;
+    padding-right: 30px;
+    border-right: 2px solid #CCCC99;
+    margin-bottom: 20px;
+}
+
+#profile h4,#introduce h4{
+    padding: 4px 0 4px 10px;
+    background-color:  #CCCC99;
+    border-radius: 4px;
+    color:  #fff;
+}
+.profile_details,.introduce_details{
+    margin: 20px 0 10px 0;
+}
+.profile_details p{
+    text-align: left;
+    margin-bottom: 6px;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.profile_details span{
+    color: deepskyblue;
+    font-weight: 500;
+}
+
+/*introduce*/
+#introduce {
+    width: 500px;
+    padding-left: 30px;
+    display: inline-block;
+}
+.introduce_details p{
+    margin: 0 0 6px 2em;
+    line-height: 30px;
+    padding-left: 30px;
+    text-indent: -1.6em;
+
+}
+
+/*#program*/
+#program {
+    clear: both;
+}
+
+#skllsi,#program{
+    margin-bottom: 20px;
+}
+.skill_list,.program_details{
+    margin: 26px 20px 40px 20px;
+}
+#skills h3,#program h3{
+    padding: 4px 0 4px 10px;
+    background-color: #6ecadc;
+    border-radius: 4px;
+    color: #fff;
+}
+.list p{
+    margin-left: 2em;
+    text-indent: -1.6em;
+    line-height: 30px;
+}
+
+.list p span{
+    color: deepskyblue;
 }
 .list div{
     text-align: right;
-    margin-right: 20px;
 }
-
 .list div a{
-    margin-left: 20px;
+    display: inline-block;
+    color: deepskyblue;
+    padding: 2px;
+    border-radius: 6px;
+}
+.list div a:hover{
+    color: #fff;
+    background-color: orangered;
+}
+
+/*skills*/
+#skills{
+    margin-bottom: 60px;
+}
+.skill_list ul li{
+    list-style: none;
+    text-align: left;
+}
+.skill_list ul li p{
+    margin-left: 2em;
+    text-indent: -1.6em;
+    margin-bottom: 6px;
+    line-height: 30px;
+}
+.skill_list ul li span{
+    display:block;
+    height: 6px;
+    border-radius: 6px;
+    background: #6ecadc;
 }
 
 
-/*introduce*/
-.introduce{
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.clr4{
-    color: #20B2AA;
-}
 
 
-@media (max-width: 767px) {
-    .row-offcanvas {
-        position: relative;
-        -webkit-transition: all .25s ease-out;
-        -o-transition: all .25s ease-out;
-        -ms-transition: all .25s ease-out;
-        -moz-transition: all .25s ease-out;
-        transition: all .25s ease-out;
-    }
 
-    .row-offcanvas-right {
-        right: 0;
-    }
-
-    .row-offcanvas-left {
-        left: 0;
-    }
-
-    .row-offcanvas-right .sidebar-offcanvas {
-        right: -50%; /* 6 columns */
-    }
-
-    .row-offcanvas-left .sidebar-offcanvas {
-        left: -50%; /* 6 columns */
-    }
-
-    .row-offcanvas-right.active {
-        right: 50%; /* 6 columns */
-    }
-
-    .row-offcanvas-left.active {
-        left: 50%; /* 6 columns */
-    }
-
-    .sidebar-offcanvas {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 50%; /* 6 columns */
-    }
-    #main{
-        position: absolute;
-        left: 0;
-    }
-}
-
-
-/* 小屏幕(平板,大于等于768px)*/
-@media (min-width: 768px) {
-    h4{
-        font-size: 16px;
-    }
-    p{
-        font-size: 8px;
-    }
-    span{
-        font-size: 8px;
-    }
-    .list a{
-        font-size: 8px;
-    }
-
-}
-/* 中等屏幕(桌面显示器,大于等于992px)*/
-@media (min-width: 992px) {
-
-    h4{
-        font-size: 20px;
-    }
-    p{
-        font-size: 12px;
-    }
-    span{
-        font-size: 12px;
-    }
-    .list a{
-        font-size: 12px;
-    }
-    .container-fluid{
-        width: 900px;
-        margin: 30px auto;
-        box-shadow: 0 2px 20px #666,0 0 2px #666,0 0 2px #666;
-        border: 1px solid #ddd;
-    }
-}
-
-/* 大屏幕(大桌面显示器,大于等于1200px)*/
-@media (min-width: 1200px) {
-    h4 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 14px;
-    }
-    span{
-        font-size: 14px;
-    }
-    .list a{
-        font-size: 14px;
-    }
-    .container-fluid{
-        width: 900px;
-        margin: 30px auto;
-        box-shadow: 0 2px 20px #666,0 0 2px #666,0 0 2px #666;
-        border: 1px solid #ddd;
-    }
-}
