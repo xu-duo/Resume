@@ -12,11 +12,10 @@ a{
 }
 .wrap{
     width: 960px;
-    margin: 20px auto 40px auto;
+    margin: 30px auto 40px auto;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 1px solid transparent;
     border-radius: 4px;
-    box-shadow: 1px 1px 3px #ccc;
 }
 
 /*header*/
@@ -60,7 +59,6 @@ a{
     font-size: 16px;
     color: #fff;
     margin-top: 2px;
-
 }
 .details span{
     display: inline-block;
@@ -126,7 +124,6 @@ a{
     line-height: 30px;
     padding-left: 30px;
     text-indent: -1.6em;
-
 }
 
 /*#program*/
